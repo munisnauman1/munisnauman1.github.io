@@ -1,9 +1,13 @@
 h1{
   color: aqua;
+  background-color: red;
 }
 p{
     color: red;
 }
 #heading-one{
     color: green;
+}
+.text-color-yellow{
+    color: yellow;
 }
