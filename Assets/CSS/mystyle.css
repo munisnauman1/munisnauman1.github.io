@@ -1,6 +1,6 @@
 h1{
-  color: aqua;
-  background-color: red;
+  color: rgb(255, 140, 0);
+  background-color: rgb(255, 13);
 }
 p{
     color: red;
@@ -10,4 +10,13 @@ p{
 }
 .text-color-yellow{
     color: yellow;
+}
+primary-color{
+    color:rgb(255,119,56)
+}
+p.primary-color-background{
+    background-color: rgb(47,199,20);
+}
+body{
+    background-image: url("../Images/istockphoto-1147544800-612x612.jpg");
 }
