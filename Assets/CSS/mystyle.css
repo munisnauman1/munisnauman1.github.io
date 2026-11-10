@@ -4,11 +4,13 @@ h1{
   text-decoration: underline;
   text-decoration-style: wavy;
   text-transform: uppercase;
-  text-indent: 20px;
+  text-indent: 10rem;
   letter-spacing: 5px;
   line-height: 1.5;
   word-spacing: 10px;
   white-space: nowrap;
+  text-shadow: 2px 2px 5px rgb(7,7,7);
+  font-family:'Momo Signature', Times, serif
 }
 p{
     color: red;
@@ -32,4 +34,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
+}
+a{color: rgb(12,155,114)
+text-decoration: none;
+background-color: black;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+a:hover{
+    color: rgb(226,6,255);  
+    text-decoration: none;
+    background-color: black;
 }
