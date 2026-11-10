@@ -1,9 +1,19 @@
 h1{
-  color: rgb(255, 140, 0);
+  color: rgb(255, 119, 56);
   background-color: rgb(255, 13);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-transform: uppercase;
+  text-indent: 20px;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  word-spacing: 10px;
+  white-space: nowrap;
 }
 p{
     color: red;
+    font-size: 1rem;
+    text-align-last: center;
 }
 #heading-one{
     color: green;
@@ -18,5 +28,8 @@ p.primary-color-background{
     background-color: rgb(47,199,20);
 }
 body{
-    background-image: url("../Images/istockphoto-1147544800-612x612.jpg");
+    background-image: url("../Assets Subfolder/Images/istockphoto-1386446426-612x612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
